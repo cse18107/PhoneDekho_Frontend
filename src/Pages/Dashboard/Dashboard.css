@@ -1,0 +1,45 @@
+.dashboard-body{
+    width: 100%;
+    height:100vh ;
+    background-color: aquamarine;
+}
+.dashboard-headers{
+    height: 10%;
+    width: 100%;
+    background-color: rgb(240, 148, 148);
+}
+.dashboard-container{
+    height: 90%;
+    width: 100%;
+    background-color: rgb(106, 153, 106);
+    display: flex;
+    float: right;
+}
+.dashboard-left__sidebar{
+    height: 100%;
+    width: 15%;
+    background-color: rgb(121, 121, 250);
+    position: fixed;
+}
+.dashboard-left__sidebar-button{
+    width: 100%;
+    height: 10%;
+    background-color: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.dashboard-left__sidebar-button:hover{
+    background-color: rgb(202, 138, 18);
+}
+.falt{
+    height: 1000px;
+}
+.dashboard-right__content{
+    width: 85%;
+    height: 100%;
+    background-color: rgb(117, 117, 64);
+    position:absolute;
+    right: 0;
+}
