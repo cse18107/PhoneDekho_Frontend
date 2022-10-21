@@ -1,0 +1,53 @@
+.dashboard-right__header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+}
+.header-content{
+    height: 90%;
+    width: 97%;
+    display: flex;
+    justify-content: space-between;
+}
+.page-content{
+    height: 100%;
+    /* width: 20%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.6rem;
+    font-family: 'Merriweather', serif;
+    font-weight: 700;
+    color: rgb(154, 154, 154);
+}
+.header-buttons{
+    width: 10%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.header-notification-button{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.notification-content{
+    position: relative;
+    cursor: pointer;
+}
+.indicator{
+    position: absolute;
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    top: 1px;
+    right: 1px;
+    background-color: rgb(255, 24, 24);
+}
+.header-profile-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
