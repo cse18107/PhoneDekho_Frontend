@@ -1,0 +1,212 @@
+.dashboard-body {
+    width: 100%;
+    /* min-height: 100vh; */
+    background-color: rgba(246, 246, 246, 0.368);
+}
+
+.dashboard-headers {
+    height: 10%;
+    width: 100%;
+
+}
+
+.dashboard-container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+.dashboard-left__sidebar {
+    height: 100%;
+    width: 15%;
+    position: fixed;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.dashboard-left__sidebar-button {
+    width: 100%;
+    height: 9%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+img {
+    height: 30px;
+}
+
+.dashboard-left__sidebar-btn {
+    width: 70%;
+    height: 60%;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(196, 122, 255, 1) 0%, rgba(159, 73, 228, 1) 100%);
+    color: rgb(255, 255, 255);
+    border-radius: 7px;
+    display: flex;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    transition: transform 0.2s;
+}
+
+.dashboard-left__sidebar-btn:hover {
+    transform: scale(1.1);
+}
+
+.dashboard-right__content {
+    width: 85%;
+    height: 100%;
+    margin-left: 15%;
+    background-color: rgba(246, 246, 246, 0.368);
+}
+
+.dashboard-logo {
+    width: 100%;
+    height: 20%;
+    font-size: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dashboard-right__header {
+    position: absolute;
+    top: 5%;
+    right: 2%;
+    height: 10%;
+    width: 80%;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.dashboard-right {
+    width: 80%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    right: 2%;
+}
+
+.dashboard-right_chart-header {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.overview-details {
+    width: 22%;
+    height: 60%;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    display: flex;
+}
+
+.count-text {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+    color: rgb(128, 128, 128);
+}
+
+.count-num {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.7rem;
+    color: white;
+    font-weight: 700;
+}
+
+.user-count-num {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background: #f12711;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f5af19, #f12711);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f5af19, #f12711);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.item-count-num {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background: #1FA2FF;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #A6FFCB, #12D8FA, #1FA2FF);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #A6FFCB, #12D8FA, #1FA2FF);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+
+.order-count-num {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background: #7F00FF;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #E100FF, #7F00FF);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #E100FF, #7F00FF);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.delivery-count-num {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background: #11998e;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #38ef7d, #11998e);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #38ef7d, #11998e);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.dashboard-chart-container{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(246, 246, 246, 0.368);
+}
+.chart_1{
+    width: 47%;
+    height: 90%;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.chart-content{
+    height: 73%;
+    width: 95%;
+}
+.chart_2{
+    width: 47%;
+    height: 90%;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
