@@ -1,0 +1,296 @@
+.profile_page_container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile_page_content {
+    width: 90%;
+    height: 90%;
+    display: flex;
+}
+
+.profile_page_content_left {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile_details {
+    width: 65%;
+    height: 95%;
+    border-radius: 20px;
+    background: #ffffff;
+    box-shadow: 20px 20px 60px #bebebe,
+        -20px -20px 60px #ffffff;
+}
+
+.profile_details_content {
+    height: 100%;
+    width: 100%;
+}
+
+.profile_page_content_right {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.profile_added_users {
+    width: 80%;
+    height: 45%;
+    border-radius: 20px;
+    background: #ffffff;
+    box-shadow: 20px 20px 60px #bebebe,
+        -20px -20px 60px #ffffff;
+}
+
+.profile-picture {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-image {
+    height: 80%;
+    width: 85%;
+    border-radius: 20px;
+}
+
+.profile-des {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    font-size: 1.1rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-des-content {
+    height: 80%;
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.profile-headings {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.heading {
+    width: 36%;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.description {
+    width: 64%;
+    color: rgb(154, 154, 154);
+}
+
+.profile-name-number {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    color: rgb(95, 95, 95);
+}
+
+.profile-edit-button {
+    width: 60%;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    font-size: 1.2rem;
+    outline: none;
+    cursor: pointer;
+    transition: transform 0.2s;
+    background: #11998e;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #38ef7d, #11998e);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #38ef7d, #11998e);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.profile-edit-button:hover {
+    transform: scale(1.1);
+}
+
+.profile_add_list {
+    width: 80%;
+    height: 45%;
+    border-radius: 20px;
+    background: #ffffff;
+    box-shadow: 20px 20px 60px #bebebe,
+        -20px -20px 60px #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile_add_list_content {
+    height: 90%;
+    width: 90%;
+}
+
+.profile_add_list_btns {
+    height: 30%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.profile_add_list_search {
+    width: 40%;
+    height: 60%;
+    background-color: rgb(229, 228, 228);
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.search_img img {
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+
+.search_input {
+    background-color: transparent;
+    height: 80%;
+    width: 70%;
+    font-size: 1.3rem;
+    color: black;
+    outline: none;
+    border: none;
+}
+
+.profile_add_list_add-btn {
+    height: 60%;
+    width: 20%;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    font-size: 1.1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    transition: transform 0.4s;
+    background-image: radial-gradient(circle farthest-corner at 10% 20%, rgba(255, 209, 67, 1) 0%, rgba(255, 145, 83, 1) 90%);
+}
+
+.profile_add_list_add-btn:hover {
+    transform: scale(1.1);
+}
+
+.profile_add_list_list {
+    width: 100%;
+    height: 70%;
+    overflow-y: scroll;
+}
+
+.scroll-style::-webkit-scrollbar {
+    width: 10px;
+}
+
+.scroll-style::-webkit-scrollbar-track {
+    background: rgb(214, 214, 214);
+    /* color of the tracking area */
+}
+
+.scroll-style::-webkit-scrollbar-thumb {
+    background-color: rgb(0, 247, 255);
+    /* color of the scroll thumb */
+    border-radius: 20px;
+    /* roundness of the scroll thumb */
+    border: 3px solid rgb(0, 229, 255);
+    /* creates padding around scroll thumb */
+}
+
+.add-list_item {
+    width: 98%;
+    height: 20%;
+    display: flex;
+    border-bottom: rgb(208, 206, 206) solid 1px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.add-list_item_name img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 20px;
+    object-fit: cover;
+    background-position: center;
+}
+
+.add-list_item_name {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    color: rgb(149, 149, 149);
+}
+.user{
+    height:30% ;
+}
+.add-list_item_buttons {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.add-list_item_buttons button {
+    height: 70%;
+    width: 45%;
+    border-radius: 5px;
+    border: none;
+    font-size: 0.7rem;
+    outline: none;
+    cursor: pointer;
+}
+
+.add-list_edit{
+    color:white;
+    background-image: linear-gradient( 109.6deg,  rgba(9,154,151,1) 11.2%, rgba(21,205,168,1) 91.1% );
+}
+
+.add-list_delete {
+    color: white;
+    background-color: rgb(255, 138, 138);
+}
+.profile_added_users{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.role-indicator{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    font-size: 0.9rem;
+    margin-left: 7px;
+    border-radius: 8px;
+    height: 20px;
+    color: white;
+}
