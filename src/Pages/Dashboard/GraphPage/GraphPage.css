@@ -1,0 +1,140 @@
+.dashboard-right_chart-header {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.overview-details {
+    width: 22%;
+    height: 60%;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    display: flex;
+}
+
+.count-text {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    color: rgb(255, 255, 255);
+}
+
+.count-num {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.7rem;
+    color: rgb(162, 162, 162);
+    font-weight: 700;
+}
+
+.user-count-num {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background: #f12711;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f5af19, #f12711);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f5af19, #f12711);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.item-count-num {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background: #1FA2FF;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #A6FFCB, #12D8FA, #1FA2FF);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #A6FFCB, #12D8FA, #1FA2FF);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+
+.order-count-num {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background: #7F00FF;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #E100FF, #7F00FF);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #E100FF, #7F00FF);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.delivery-count-num {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background: #11998e;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #38ef7d, #11998e);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #38ef7d, #11998e);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.dashboard-chart-container{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(246, 246, 246, 0.368);
+}
+.chart_1{
+    width: 47%;
+    height: 90%;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.chart_header{
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.chart_query select{
+    width: 100px;
+    height: 30px;
+}
+.chart-content{
+    height: 73%;
+    width: 95%;
+}
+.chart-content-pie{
+    height: 73%;
+    width: 95%;
+    display: flex;  
+}
+.pie-chart-desc{
+    height: 100%;
+    width: 60%;
+    margin-left: 20px;
+    overflow-y: scroll;
+}
+.chart_2{
+    width: 47%;
+    height: 90%;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

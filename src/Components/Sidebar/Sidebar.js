@@ -11,37 +11,37 @@ const Sidebar = () => {
             </div>
           </div>
           <div className="dashboard-left__sidebar-button">
-            <Link to="/your-profile" className="dashboard-left__sidebar-btn">
+            <Link to="/dashboard/your-profile" className="dashboard-left__sidebar-btn">
               Your profile
             </Link>
           </div>
           <div className="dashboard-left__sidebar-button">
-            <Link to="/" className="dashboard-left__sidebar-btn">
+            <Link to="/dashboard" className="dashboard-left__sidebar-btn">
               Dashboard
             </Link>
           </div>
           <div className="dashboard-left__sidebar-button">
-            <Link to="/users-list" className="dashboard-left__sidebar-btn">
+            <Link to="/dashboard/users-list" className="dashboard-left__sidebar-btn">
               Users list
             </Link>
           </div>
           <div className="dashboard-left__sidebar-button">
-            <Link to="/item-list" className="dashboard-left__sidebar-btn">
+            <Link to="/dashboard/item-list" className="dashboard-left__sidebar-btn">
               Items list
             </Link>
           </div>
           <div className="dashboard-left__sidebar-button">
-            <Link to="/add-item" className="dashboard-left__sidebar-btn">
+            <Link to="/dashboard/add-item" className="dashboard-left__sidebar-btn">
               Add item
             </Link>
           </div>
           <div className="dashboard-left__sidebar-button">
-            <Link to="/add-admin" className="dashboard-left__sidebar-btn">
-              Add admin
+            <Link to="/dashboard/add-user" className="dashboard-left__sidebar-btn">
+              Add user
             </Link>
           </div>
           <div className="dashboard-left__sidebar-button">
-            <Link to="order-list" className="dashboard-left__sidebar-btn">
+            <Link to="/dashboard/order-list" className="dashboard-left__sidebar-btn">
               Orders Details
             </Link>
           </div>
