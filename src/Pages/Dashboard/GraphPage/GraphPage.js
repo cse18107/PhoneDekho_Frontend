@@ -1,6 +1,4 @@
 import React from "react";
-import { CChart } from "@coreui/react-chartjs";
-import { PieChart } from "react-minimal-pie-chart";
 import Wrapper from "../../../Components/Wrapper/Wrapper";
 import "./GraphPage.css";
 import user from "../../../assets/icons/user_logo.png";
@@ -11,24 +9,9 @@ import { setBg } from "../../../utils/getRandomColor";
 import BarChart from "../../../Components/Service/Chart/BarChart/BarChart";
 import PieDataChart from "../../../Components/Service/Chart/PieChart/PieDataChart";
 import LineChart from "../../../Components/Service/Chart/LineChart/LineChart";
+import { pieChartData } from "../../../Demofiles/Demo";
+import { companyName } from "../../../Demofiles/Demo";
 
-const pieChartData = [
-  { title: "Apple", value: 10, color: `${setBg()}`, label: "one" },
-  { title: "Samsung", value: 15, color: `${setBg()}`, label: "two" },
-  { title: "Google", value: 20, color: `${setBg()}`, label: "three" },
-  { title: "LG", value: 10, color: `${setBg()}`, label: "three" },
-  { title: "Motorola", value: 31, color: `${setBg()}`, label: "three" },
-  { title: "OnePlus", value: 36, color: `${setBg()}`, label: "three" },
-  { title: "Apple", value: 10, color: `${setBg()}`, label: "one" },
-  { title: "Samsung", value: 15, color: `${setBg()}`, label: "two" },
-  { title: "Google", value: 20, color: `${setBg()}`, label: "three" },
-  { title: "LG", value: 10, color: `${setBg()}`, label: "three" },
-  { title: "Motorola", value: 31, color: `${setBg()}`, label: "three" },
-  { title: "OnePlus", value: 36, color: `${setBg()}`, label: "three" },
-  { title: "Apple", value: 10, color: `${setBg()}`, label: "one" },
-  { title: "Samsung", value: 15, color: `${setBg()}`, label: "two" },
-];
-const companyName = ["Apple", "Samsung", "Google", "LG", "Motorola", "OnePlus"];
 
 const GraphPage = () => {
   return (

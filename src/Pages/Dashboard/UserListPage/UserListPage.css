@@ -111,30 +111,3 @@ select {
     
     align-items: center;
 }
-.search-by{
-    width: 15%;
-    height: 50px;
-    display: flex;
-    justify-content: space-around;
-    margin-right: 10px;
-    align-items: center;
-    border-radius: 5px;
-    background-color: rgba(135, 135, 135, 0.154);
-}
-.select-by select{
-    width: 150px;
-    font-size: 1.2rem;
-    height: 50px;
-}
-.search-by img{
-    width: 20px;
-    height: 20px;
-}
-.name-input{
-    width: 80%;
-    height: 90%;
-    font-size: 1.2rem;
-    background-color: transparent;
-    outline: none;
-    border: none;
-}

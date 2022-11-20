@@ -1,0 +1,31 @@
+.item-image_content{
+    height: 95%;
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.carousel-div{
+    width: 30px;
+    height: 30px;
+    background-color: rgb(175, 175, 175);
+    display: flex;
+    padding: 5px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+}
+.carousel-div img{
+    height: 80%;
+}
+.prev-btn{
+    cursor: pointer;
+}
+.next-btn{
+    cursor: pointer;
+}
+.item-image_content img{
+    height: 100%;
+    width: 80%;
+    object-fit: contain;
+}

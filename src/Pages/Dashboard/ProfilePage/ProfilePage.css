@@ -206,7 +206,7 @@
 }
 
 .scroll-style::-webkit-scrollbar {
-    width: 10px;
+    width: 5px;
 }
 
 .scroll-style::-webkit-scrollbar-track {

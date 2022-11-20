@@ -1,0 +1,26 @@
+.input{
+    width: 100%;
+    margin-bottom: 10px;
+}
+.label{
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: rgb(139, 139, 139);
+}
+.input_message{
+    width: 100%;
+}
+.input_message input{
+    width: 50%;
+    height: 50px;
+    border-radius: 3px;
+    border: 1px solid rgb(134, 57, 134);
+    padding-left: 3px;
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: rgb(105, 105, 105);
+    outline: none;
+}
+.success_message{
+    font-size: 0.9rem;
+}

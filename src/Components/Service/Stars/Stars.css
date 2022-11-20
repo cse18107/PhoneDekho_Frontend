@@ -1,0 +1,9 @@
+.star_body{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.star_body img{
+    height: 15px;
+}
