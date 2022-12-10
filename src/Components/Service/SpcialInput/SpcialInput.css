@@ -3,24 +3,30 @@
     margin-bottom: 10px;
 }
 .label{
-    font-size: 1.4rem;
-    font-weight: bold;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
     color: rgb(139, 139, 139);
 }
 .input_message{
     width: 100%;
 }
+::placeholder{
+    color: rgba(63, 63, 63, 0.398);
+}
 .input_message input{
-    width: 50%;
+    width: 100%;
     height: 50px;
-    border-radius: 3px;
-    border: 1px solid rgb(134, 57, 134);
-    padding-left: 3px;
+    border-radius: 5px;
+    border: 0.6px solid rgb(89, 0, 89);
+    padding-left: 9px;
     font-size: 1.1rem;
     font-weight: 500;
-    color: rgb(105, 105, 105);
+    color: rgba(105, 105, 105, 0.752);
     outline: none;
 }
 .success_message{
     font-size: 0.9rem;
+    color: rgb(255, 140, 140);
 }
