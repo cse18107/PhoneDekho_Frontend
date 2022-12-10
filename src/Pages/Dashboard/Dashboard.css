@@ -31,7 +31,10 @@
     align-items: center;
     font-family: 'Roboto', sans-serif;
 }
-
+.dashboard-left__sidebar-button img{
+    height: 25px;
+    margin-right: 10px;
+}
 img {
     height: 30px;
 }
