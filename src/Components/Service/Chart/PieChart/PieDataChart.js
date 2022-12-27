@@ -1,8 +1,21 @@
-import React from "react";
+import React, {useState} from "react";
 import "../index.css";
 import { PieChart } from "react-minimal-pie-chart";
 
 const PieDataChart = ({ pieChartData }) => {
+
+  const [pieData, setPieData] = useState(pieChartData);
+  const [pieIndex, setPieIndex] = useState(-1);
+
+  const setPieIndexData = (index) => {
+    if(pieIndex===index){
+      setPieIndex(-1);
+    } else {
+      setPieIndex(index);
+    }
+    console.log(index);
+  }
+
   return (
     <div className="chart_2">
       <div className="chart_header">
@@ -18,11 +31,11 @@ const PieDataChart = ({ pieChartData }) => {
         </div>
       </div>
       <div className="chart-content-pie">
-        <PieChart data={pieChartData} animate={true} />
+        <PieChart data={pieData} animate={true} radius={40} segmentsShift={(segmentIndex) => segmentIndex===pieIndex?4:0} />
         <div className="pie-chart-desc scroll-style">
-          {pieChartData.map((item) => {
+          {pieData.map((item,index) => {
             return (
-              <div className="chart-item">
+              <div className="chart-item" onClick={()=>setPieIndexData(index)}>
                 <div
                   className="colorIndi"
                   style={{ backgroundColor: `${item.color}` }}

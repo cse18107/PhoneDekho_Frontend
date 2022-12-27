@@ -25,7 +25,15 @@ import oppo4 from "../assets/images/Phones/3/oppo_4.jpg";
 import oppo5 from "../assets/images/Phones/3/oppo_5.jpg";
 import oppo6 from "../assets/images/Phones/3/oppo_6.jpg";
 
+
+import ItemLogo from "../assets/icons/menu.png";
+import ItemLogo1 from "../assets/icons/list.png";
+import ItemLogo2 from "../assets/icons/internet.png";
+
 export {
+  ItemLogo,
+  ItemLogo1,
+  ItemLogo2,
   Redmi,
   Redmi1,
   Redmi2,

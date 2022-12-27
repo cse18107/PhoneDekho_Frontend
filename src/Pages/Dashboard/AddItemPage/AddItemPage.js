@@ -8,33 +8,17 @@ import { Editor } from "react-draft-wysiwyg";
 import "react-draft-wysiwyg/dist/react-draft-wysiwyg.css";
 import reset from "../../../assets/icons/reset.png";
 import submit from "../../../assets/icons/submit.png";
+import { carouselDataAddItem } from "../../../Demofiles/Demo";
 
-const indexPos = [0, 105, 210];
-const max = 2;
 const AddItemPage = () => {
-  const [position, setPosition] = useState(0);
+
   const [images, setImages] = useState([]);
-  const [ind, setInd] = useState(0);
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setInd((ind) => ind + 1);
-    }, 2000);
-    return () => clearInterval(interval);
-  }, []);
-  // console.log(ind);
-  useEffect(() => {
-    // console.log(ind);
-    setPosition(indexPos[ind]);
-    if (ind > max) {
-      setInd(0);
-    }
-  }, [ind]);
 
   return (
     <Wrapper>
       <div className="add-item_content">
         <div className="add-item_content__left">
-          <AddItemCarousel position={position} />
+          <AddItemCarousel dataList={carouselDataAddItem}/>
           <SpcialInput
             label={"Name"}
             show={false}

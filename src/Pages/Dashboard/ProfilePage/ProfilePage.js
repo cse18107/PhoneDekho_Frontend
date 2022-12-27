@@ -22,7 +22,7 @@ const ProfilePage = () => {
                   <img
                     className="profile-image"
                     src={profile}
-                    alt={"Your picture"}
+                    alt={"Your pic"}
                   />
                 </div>
                 <div className="profile-des">

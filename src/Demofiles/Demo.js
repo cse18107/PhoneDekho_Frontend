@@ -1,5 +1,8 @@
 import { setBg } from "../utils/getRandomColor";
 import {
+  ItemLogo,
+  ItemLogo1,
+  ItemLogo2,
   Redmi,
   Redmi1,
   Redmi2,
@@ -26,6 +29,40 @@ import {
   oppo6,
 } from "./ImageImports";
 
+export const carouselDataAddItem = [
+  {
+    _id: '1',
+    icon:ItemLogo,
+    desc:'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry"s standard dummy text ever since the 1500s',
+  },
+  {
+    _id: '2',
+    icon:ItemLogo1,
+    desc:'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has',
+  },
+  {
+    _id: '3',
+    icon:ItemLogo2,
+    desc:'Text of the printing and typesetting industry. Lorem Ipsum has been the industry"s standard dummy text ever since the 1500s',
+  }
+];
+export const carouselDataAddUser = [
+  {
+    _id: '1',
+    icon:'',
+    desc:'',
+  },
+  {
+    _id: '2',
+    icon:'',
+    desc:'',
+  },
+  {
+    _id: '3',
+    icon:'',
+    desc:'',
+  }
+];
 export const users = [
   {
     _id: "4252552525252555",
@@ -405,20 +442,20 @@ export const companyName = [
   "OnePlus",
 ];
 export const pieChartData = [
-  { title: "Apple", value: 10, color: `${setBg()}`, label: "one" },
-  { title: "Samsung", value: 15, color: `${setBg()}`, label: "two" },
-  { title: "Google", value: 20, color: `${setBg()}`, label: "three" },
-  { title: "LG", value: 10, color: `${setBg()}`, label: "three" },
-  { title: "Motorola", value: 31, color: `${setBg()}`, label: "three" },
-  { title: "OnePlus", value: 36, color: `${setBg()}`, label: "three" },
-  { title: "Apple", value: 10, color: `${setBg()}`, label: "one" },
-  { title: "Samsung", value: 15, color: `${setBg()}`, label: "two" },
-  { title: "Google", value: 20, color: `${setBg()}`, label: "three" },
-  { title: "LG", value: 10, color: `${setBg()}`, label: "three" },
-  { title: "Motorola", value: 31, color: `${setBg()}`, label: "three" },
-  { title: "OnePlus", value: 36, color: `${setBg()}`, label: "three" },
-  { title: "Apple", value: 10, color: `${setBg()}`, label: "one" },
-  { title: "Samsung", value: 15, color: `${setBg()}`, label: "two" },
+  { title: "Apple", value: 7.14285714, color: `${setBg()}`, label: "one" },
+  { title: "Samsung", value: 7.14285714, color: `${setBg()}`, label: "two" },
+  { title: "Google", value: 7.14285714, color: `${setBg()}`, label: "three" },
+  { title: "LG", value: 7.14285714, color: `${setBg()}`, label: "three" },
+  { title: "Motorola", value: 7.14285714, color: `${setBg()}`, label: "three" },
+  { title: "OnePlus", value: 7.14285714, color: `${setBg()}`, label: "three" },
+  { title: "Apple", value: 7.14285714, color: `${setBg()}`, label: "one" },
+  { title: "Samsung", value: 7.14285714, color: `${setBg()}`, label: "two" },
+  { title: "Google", value: 7.14285714, color: `${setBg()}`, label: "three" },
+  { title: "LG", value: 7.14285714, color: `${setBg()}`, label: "three" },
+  { title: "Motorola", value: 7.14285714, color: `${setBg()}`, label: "three" },
+  { title: "OnePlus", value: 7.14285714, color: `${setBg()}`, label: "three" },
+  { title: "Apple", value: 7.14285714, color: `${setBg()}`, label: "one" },
+  { title: "Samsung", value: 7.14285714, color: `${setBg()}`, label: "two" },
 ];
 
 export const DemoItems = [
